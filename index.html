@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Definitivamente um site cara</title>
+    <title>não tem nd</title>
     <style>
         /* Resetando margens e padding */
         * {
@@ -14,225 +14,98 @@
 
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #f0f0f0;
             color: #333;
-        }
-
-        /* Cabeçalho */
-        header {
-            background-color: #4CAF50;
-            color: white;
             text-align: center;
-            padding: 30px 0;
+            padding: 50px;
         }
 
-        header h1 {
-            font-size: 3em;
+        h1 {
+            font-size: 4em;
+            margin-bottom: 20px;
+            color: #4CAF50;
         }
 
-        /* Menu de navegação */
-        nav {
-            background-color: #333;
-            overflow: hidden;
-        }
-
-        nav a {
-            float: left;
-            display: block;
-            color: white;
-            padding: 14px 20px;
-            text-align: center;
-            text-decoration: none;
-        }
-
-        nav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-
-        nav a.active {
-            background-color: #4CAF50;
-            color: white;
-        }
-
-        /* Conteúdo principal */
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        .main-content {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 20px;
-        }
-
-        .main-content section {
-            width: 48%;
-        }
-
-        .main-content img {
-            width: 100%;
-            height: auto;
-        }
-
-        /* Galeria de imagens */
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(1, 3fr);
-            gap: 20px;
+        p {
+            font-size: 1.5em;
             margin-top: 30px;
+            color: #555;
         }
 
-        .gallery img {
-            width: 110%;
-            border-radius: 8px;
-        }
-
-        /* Rodapé */
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-
-        footer a {
+        .curiosity {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+            font-size: 2em;
             color: #4CAF50;
-            text-decoration: none;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
         }
 
-        footer a:hover {
-            text-decoration: underline;
+        .extra-message {
+            font-size: 2em;
+            color: #888;
         }
-
-        /* Formulário de Contato */
-        form {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        form input, form textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        form button {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        form button:hover {
-            background-color: #45a049;
-        }
-
-        /* Estilo para links internos */
-        .section-link {
-            color: #4CAF50;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .section-link:hover {
-            text-decoration: underline;
-        }
-
     </style>
 </head>
 <body>
 
-    <!-- Cabeçalho -->
-    <header>
-        <h1>Bem-vindo ao Meu Site Completo!</h1>
-        <p>Explore os links abaixo para conhecer mais sobre mim e meus serviços.</p>
-    </header>
+    <h1>Curiosidade Aleatória</h1>
 
-    <!-- Navegação -->
-    <nav>
-        <a href="#home" class="active">Home</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#projetos">Projetos</a>
-        <a href="#redes-sociais">Minhas Redes Sociais</a>
-    </nav>
+    <!-- A curiosidade vai ser exibida aqui -->
+    <div class="curiosity" id="curiosity"></div>
 
-    <!-- Container -->
-    <div class="container" id="home">
-        <section>
-            <h2>Bem-vindo ao curso de como ser o brabo 😎</h2>
-            <p>Este é um site para te ensinar a como bater em idosos, não ser pego pela polícia, e só ter regresso ::DDDD</p>
-            <p><a href="#sobre" class="section-link">Saiba mais sobre mim</a></p>
-        </section>
-        <section>
-            <h2>Links Rápidos</h2>
-            <ul>
-                <li><a href="#sobre" class="section-link">Sobre Mim</a></li>
-                <li><a href="#servicos" class="section-link">Serviços Oferecidos</a></li>
-                <li><a href="#projetos" class="section-link">Alguns de meus projetos :D</a></li>
-                <li><a href="#redes-sociais" class="section-link">Redes Sociais</a></li>
-            </ul>
-        </section>
-    </div>
+    <!-- Mensagem adicional com variações -->
+    <p class="extra-message" id="extra-message"></p>
 
-    <!-- Seção Sobre -->
-    <div class="container" id="sobre">
-        <section>
-            <h2>Sobre Mim</h2>
-            <p>Olá! Eu sou Paulina Cleitina de Souza, uma profissional apaixonado por minha profição que é bater em idosos. Tenho 700 anos de idade e adoro ajudar meus clientes a baterem em idosos. Este site é apenas uma amostra do que faço!</p>
-            <p>Entre em contato para saber mais sobre como posso ajudar você a espancar seu vô e vó meio loko das ideias.</p>
-        </section>
-    </div>
+    <script>
+        // Array com algumas curiosidades mais informais
+        const curiosities = [
+            "Sabia que o DNA humano é 60% igual ao da banana? Então, estamos mais próximos das bananas do que imaginamos!",
+            "Os polvos têm três corações! Acho que é por isso que são tão bons em tudo, né?",
+            "Água pode ferver e congelar ao mesmo tempo! Isso se chama 'ponto triplo'. Meio maluco, né?",
+            "Giraffes só têm sete vértebras no pescoço, assim como a gente. Mas o pescoço deles é bem maior!",
+            "Coca-Cola seria verde se não fosse colorida... Agora você não vai conseguir parar de imaginar a Coca verde!",
+            "Sabia que morcegos são os únicos mamíferos que podem voar? Pois é, eles têm essa habilidade irada!",
+            "A baleia-azul é o maior ser vivo do planeta! Ela pode chegar a 30 metros de comprimento. Tipo, uma coisa monstruosa!",
+            "O corpo humano tem cerca de 100 trilhões de células! Dá pra acreditar que somos basicamente feitos de células?",
+            "Os koalas passam até 22 horas dormindo por dia. Esse sim é o mestre da preguiça!",
+            "A lua está se afastando da Terra, acredite ou não, a cada ano ela se distancia 3,8 cm. Então, é melhor aproveitar a lua cheia enquanto ainda está por aqui!"
+        ];
 
-    <!-- Seção de Serviços -->
-    <div class="container" id="servicos">
-        <section>
-            <h2>Meus Serviços</h2>
-            <p>Eu ofereço muitas dicas de como bater em idosos com qualidade :D, incluindo:</p>
-            <ul>
-                <li>Uma vara para meu clientes</li>
-                <li>Luvas de boxe para meus clientes</li>
-                <li>motivos para odiar idosos</li>
-                <li>e venda de cursos totalmente legais :D</li>
-            </ul>
-            <p>se alguma dessas coisas te interessou, entre em contato para saber mais ;D</p>
-            <p>Numero: 4002-8922</p>
-        </section>
-    </div>
+        // Variações da mensagem de "não tem nada aqui"
+        const extraMessages = [
+            "Ah, e não tem nada aqui.",
+            "Nada de interessante por aqui... só uma curiosidade aleatória.",
+            "Aqui? Não tem nada... só uma curiosidade pra te distrair.",
+            "Sem spoilers, só uma curiosidade pra você curtir!",
+            "Nada aqui além de uma curiosidade aleatória, aproveita!",
+            "Pois é, não tem nada aqui... Mas tem uma curiosidade legal!",
+            "Sério, não tem nada aqui... Só curiosidade mesmo.",
+            "Não tem nada, mas a curiosidade está aqui para te salvar!"
+        ];
 
-    <!-- Galeria de Imagens -->
-    <div class="container" id="projetos">
-        <h2>Alguns dos meus projetos :D</h2>
-        <div class="gallery">
-            <img src="https://www.petz.com.br/blog/wp-content/uploads/2019/03/cachorro-mini-pet.jpg" alt="Cachoro 1 :D">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlQaVrWCmz2dmPmOTK3ihD_x213zcFRhRcUi15CyfkJYlKb21pykgnlZm1&s=10" alt="Sung sigma :D">
-            <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH8qrXyZuquUWraIUiqWIWCdF_4IE6nh8XU0uAni4sc4bHKIPAaHJCnInpBaFkxjb3IptHZwte39IsCpMD4uRqA_KOkW01d36JjgEV2dM" alt="Gato :D">
-        </div>
-    </div>
+        // Função para selecionar uma curiosidade aleatória
+        function displayRandomCuriosity() {
+            const randomIndex = Math.floor(Math.random() * curiosities.length); // Gera um índice aleatório
+            const randomCuriosity = curiosities[randomIndex]; // Seleciona a curiosidade
+            document.getElementById("curiosity").innerText = randomCuriosity; // Exibe na tela
+        }
 
-    <!-- Rodapé -->
-    <footer>
-        <p>&copy; 2025 Curso Boladaço | Todos os direitos reservados</p>
-        <div class="container" id="redes-sociais">
-        <h2>Redes sociais:</h2>
-        <div class="redes-sociais">
-            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://m.facebook.com/mrbeast/&ved=2ahUKEwis2pOFxdSMAxUYr5UCHYc9Gj4QFnoECBgQAQ&usg=AOvVaw1VL6DueC5sbpMzk2oS1Y_B" target="_blank">Facebook</a> |
-            <a href="https://www.instagram.com/mrbeast/" target="_blank">Instagram</a> |
-            <a href="https://youtube.com/@mrbeast?si=HhWShTkJfsUnQJBU" target="_blank">Youtube</a>
-        </p>
-    </footer>
+        // Função para selecionar uma variação aleatória da mensagem "não tem nada aqui"
+        function displayRandomExtraMessage() {
+            const randomMessageIndex = Math.floor(Math.random() * extraMessages.length); // Gera um índice aleatório para as mensagens
+            const randomMessage = extraMessages[randomMessageIndex]; // Seleciona a mensagem
+            document.getElementById("extra-message").innerText = randomMessage; // Exibe na tela
+        }
+
+        // Chama as funções para exibir a curiosidade e a mensagem ao carregar a página
+        displayRandomCuriosity();
+        displayRandomExtraMessage();
+    </script>
 
 </body>
 </html>
